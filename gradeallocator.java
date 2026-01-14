@@ -5,7 +5,7 @@ public class gradeallocator
     {
         double a;
         Scanner read=new Scanner(System.in);
-        while(1>0)
+        while(true)
         /*100=distinction
           90-99=A++
           80-89=A+
@@ -86,3 +86,4 @@ public class gradeallocator
             }
     }
 }
+
