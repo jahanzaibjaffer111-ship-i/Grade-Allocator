@@ -71,13 +71,13 @@ public class gradeallocator
                 System.out.println("Bye");
                 System.out.println(".");
                 }
-                if (a<0)
+                else if (a<0)
                 {
                     System.out.println("Percentage can't be negative");
                     System.out.println("Try again");
                     System.out.println(".");
                 }
-                if (a>100)
+                else if (a>100)
                 {
                     System.out.println("Percentage can't be more than 100");
                     System.out.println("Try again");
@@ -86,3 +86,4 @@ public class gradeallocator
             }
     }
 }
+
