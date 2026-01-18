@@ -16,75 +16,73 @@ public class gradeallocator
           30-39=E
           0-29=F*/
             {
-                System.out.println("HELLO");
-                System.out.println("WELCOME TO GRADE ALLOCATOR");
-                System.out.println("TYPE YOUR PERCENTAGE");
+                System.out.println("Hello");
+                System.out.println("Welcome to Grade Allocator");
+                System.out.println("Type your percentage");
                 a=read.nextDouble();
                 if (a>=0 && a<=100)
                 {
                     if(a==100.0)
                         {
-                            System.out.println("DISTINCTION");
-                            System.out.println("PASS");
+                            System.out.println("Distinction");
+                            System.out.println("Pass");
                         }
                     else if(a>=90)
                          {
                             System.out.println("A++");
-                            System.out.println("PASS");
+                            System.out.println("Pass");
                          }
                     else if (a>=80)
                          {
                             System.out.println("A+");
-                            System.out.println("PASS");
+                            System.out.println("Pass");
                          }
                     else if (a>=70)
                         {
                             System.out.println("A");
-                            System.out.println("PASS");
+                            System.out.println("Pass");
                         }
                     else if (a>=60)
                         {
                             System.out.println("B");
-                            System.out.println("PASS");
+                            System.out.println("Pass");
                         }
                     else if(a>=50)
                         {
                             System.out.println("C");
-                            System.out.println("PASS");
+                            System.out.println("Pass");
                         }
                     else if (a>=40)
                         {
                             System.out.println("D");
-                            System.out.println("PASS");
+                            System.out.println("Pass");
                         }
                     else if (a>=30)
                         {
                             System.out.println("E");
-                            System.out.println("PASS");
+                            System.out.println("Pass");
                         }
                     else if (a>=0)
                         {
                             System.out.println("F");
-                            System.out.println("FAIL");
+                            System.out.println("Fail");
                         }
-                System.out.println("THANKS");
-                System.out.println("BYE");
+                System.out.println("Thanks");
+                System.out.println("Bye");
                 System.out.println(".");
                 }
                 if (a<0)
                 {
-                    System.out.println("PERCENTAGE CANT BE NEGATIVE");
-                    System.out.println("TRY AGAIN");
+                    System.out.println("Percentage can't be negative");
+                    System.out.println("Try again");
                     System.out.println(".");
                 }
                 if (a>100)
                 {
-                    System.out.println("PERCENTAGE CANT BE MORE THAN 100");
-                    System.out.println("TRY AGAIN");
+                    System.out.println("Percentage can't be more than 100");
+                    System.out.println("Try again");
                     System.out.println(".");
                 }
             }
     }
 }
-
-
